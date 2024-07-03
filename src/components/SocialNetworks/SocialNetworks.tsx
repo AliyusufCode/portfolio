@@ -5,7 +5,6 @@ import { FaGithub } from "react-icons/fa";
 import { SlSocialVkontakte } from "react-icons/sl";
 import styles from "./Socialnetwork.module.scss";
 import { Link } from "react-router-dom";
-import { CgMail } from "react-icons/cg";
 
 const SocialNetworks = () => {
   return (
