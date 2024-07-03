@@ -4,7 +4,6 @@ import { BiSolidSpreadsheet } from "react-icons/bi";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 import { BiSolidMessageSquareDetail } from "react-icons/bi";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { FaRegCircleUser } from "react-icons/fa6";
 import { MdClose } from "react-icons/md";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";
