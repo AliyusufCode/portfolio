@@ -49,7 +49,6 @@ const Header = ({ openMenu, setOpenMenu }: HeaderProps) => {
         </Link>
       </div>
       <div className={styles.theme}>
-        <Button Icon={FaRegCircleUser} />
         <button className={styles.btn}>
           {!openMenu ? (
             <GiHamburgerMenu
