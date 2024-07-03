@@ -1,0 +1,87 @@
+.container {
+  margin: 0px 20px;
+  height: fit-content;
+  margin-left: 0;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  margin-bottom: 30px;
+  .head {
+    margin: 0 auto;
+    width: fit-content;
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 40px;
+    border-bottom: 4px solid rgb(168, 225, 225) !important;
+  }
+  p {
+    padding: 25px 45px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 auto !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    width: 90%;
+    margin: 10px auto;
+    height: 180px;
+    border-radius: 20px;
+    background: rgb(234, 244, 251);
+    .img {
+      width: 50px;
+      height: 50px;
+      margin: 15px;
+    }
+  }
+  .name {
+    margin-top: 35px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    padding: 15px 0;
+    margin-bottom: 10px !important;
+  }
+  .head {
+    font-size: 30px !important;
+    border-bottom: 3px solid rgb(168, 225, 225) !important;
+  }
+  p {
+    padding: 5px 10px !important;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    line-height: 1.2 !important;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .block {
+    align-items: center !important;
+    text-align: center !important;
+    padding: 15px 0 !important;
+    width: 90% !important;
+    height: fit-content !important;
+    .img {
+      width: 35px !important;
+      height: 35px !important;
+    }
+  }
+  .name {
+    margin-top: 35px;
+    font-size: 22px !important;
+    font-weight: 800;
+  }
+}

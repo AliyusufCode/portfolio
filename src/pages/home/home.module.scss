@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+}
+.main {
+  width: 100%;
+}
+@media (min-width: 200px) and (max-width: 1210px) {
+  body {
+    .main {
+      padding-left: 20px;
+    }
+  }
+}

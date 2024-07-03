@@ -1,0 +1,131 @@
+.content {
+  margin: 0px 20px;
+  height: fit-content;
+  margin-left: 0;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  padding-bottom: 0;
+
+  .head {
+    margin: 0 auto;
+    width: fit-content;
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 40px;
+    border-bottom: 4px solid rgb(168, 225, 225);
+  }
+  .block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    padding-top: 0;
+    .container {
+      max-width: 400px;
+      width: 100%;
+      margin: 50px auto;
+      display: flex;
+      flex-direction: column;
+      border-radius: 20px;
+      background: rgb(216, 255, 255);
+
+      &:hover {
+        outline: 1px solid rgb(5, 163, 231);
+      }
+
+      .icon {
+        font-size: 50px;
+        margin: 40px;
+        padding: 10px;
+        border-radius: 10px;
+        background: rgb(183, 228, 247);
+        transition: background-color 0.3s;
+
+        &:hover {
+          background: rgb(42, 109, 135);
+        }
+      }
+      span {
+        margin: 10px 40px;
+        font-size: 20px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      p {
+        margin: 4px 40px;
+        font-weight: 600;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      h4 {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        margin: 20px 40px;
+        line-height: 1.4;
+      }
+    }
+  }
+}
+@media (max-width: 950px) {
+  .block {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 500px) and (max-width: 614px) {
+  .container {
+    margin: 0 auto !important;
+    flex-direction: column;
+    border-radius: 20px;
+    background: rgb(216, 255, 255);
+  }
+}
+@media (max-width: 614px) {
+  .content {
+    margin: 0px 20px;
+    height: fit-content;
+    margin-left: 0;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 !important;
+    padding-bottom: 0;
+  }
+  .container {
+    width: fit-content !important;
+    margin-top: 10px !important;
+    justify-content: center !important;
+    margin: 15px !important;
+    border-radius: 20px;
+    background: rgb(216, 255, 255);
+  }
+  .head {
+    font-size: 30px !important;
+    border-bottom: 3px solid rgb(168, 225, 225) !important;
+  }
+
+  .icon {
+    margin: 20px auto !important;
+  }
+  span {
+    margin: 20px auto !important;
+  }
+  .name {
+    font-size: 24px !important;
+  }
+  p {
+    justify-content: center !important;
+
+    text-align: start;
+  }
+  .stack {
+    margin: 0 auto;
+  }
+}
