@@ -20,7 +20,7 @@ const Portfolio = () => {
     {
       img: "/poster.png",
       title: "Постер",
-      body: "FullStack проект для создания(удаляния,редактированием) постов с регистрацией, так же можно добавлять(удалять) комментарии.",
+      body: "FullStack роект для создания удаляния,редактированием постов с регистрацией, так же можно добавлять(удалять) комментарии.",
       stack: "MongoDb, ReactJs, Express, NodeJs",
       code: "https://github.com/AliyusufCode/Poster-Frontend",
       link: "https://poster-react-app.vercel.app",
