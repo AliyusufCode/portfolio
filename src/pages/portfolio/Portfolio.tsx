@@ -18,6 +18,16 @@ const Portfolio = () => {
       type: "Frontend",
     },
     {
+      img: "/vk.png",
+      title: "VKontakte",
+      body: "Клон мобильной версии приложения Вк, но с бесплатной музыкой в фоновом режиме)",
+      stack:
+        "React-content-loader,React-hot-toast,React Hooks, Redux Toolkit, Typescript, SCSS, React Icons, SwiperJs",
+      code: "https://github.com/AliyusufCode/vk-clone",
+      link: "https://vk-mobile.vercel.app/",
+      type: "Frontend",
+    },
+    {
       img: "/poster.png",
       title: "Постер",
       body: "FullStack роект для создания удаляния,редактированием постов с регистрацией, так же можно добавлять(удалять) комментарии.",
